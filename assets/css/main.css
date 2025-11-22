@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: black;
   font-family: "Lato", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -217,7 +217,7 @@ a:hover {
 
 strong,
 b {
-  color: #777;
+  color: black;
   font-weight: 700;
 }
 
@@ -236,7 +236,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: black;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -1853,7 +1853,7 @@ article.special {
 }
 
 header p {
-  color: #aaa;
+  color: black;
   position: relative;
   margin: 0 0 1.6875em 0;
 }
@@ -1884,7 +1884,7 @@ header.major h2 {
 }
 
 header.major h2 + p {
-  color: #777;
+  color: black;
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
@@ -1897,7 +1897,7 @@ form {
 }
 
 label {
-  color: #777;
+  color: black;
   display: block;
   font-size: 0.9em;
   font-weight: 700;
@@ -1956,7 +1956,7 @@ select {
 }
 
 select option {
-  color: #777;
+  color: black;
   background: #fff;
 }
 
@@ -1996,7 +1996,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #888;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2059,25 +2059,25 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-  color: #aaa !important;
+  color: black !important;
   font-style: italic;
   opacity: 1;
 }
 
 :-moz-placeholder {
-  color: #aaa !important;
+  color: black !important;
   font-style: italic;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #aaa !important;
+  color: black !important;
   font-style: italic;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #aaa !important;
+  color: black !important;
   font-style: italic;
   opacity: 1;
 }
@@ -2555,7 +2555,7 @@ table td {
 }
 
 table th {
-  color: #777;
+  color: black;
   font-size: 0.9em;
   font-weight: 700;
   padding: 0 0.75em 0.75em 0.75em;
@@ -2610,7 +2610,7 @@ input[type="button"],
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #989898;
+  background-color: black;
   border-radius: 5px;
   border: 0;
   color: #ffffff !important;
@@ -2629,7 +2629,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  background-color: #a5a5a5;
+  background-color: darkgray;
   color: #ffffff !important;
 }
 
@@ -2637,7 +2637,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-  background-color: #8b8b8b;
+  background-color: black;
 }
 
 input[type="submit"].icon,
@@ -2681,7 +2681,7 @@ input[type="button"].alt,
 .button.alt {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #e4e4e4;
-  color: #777 !important;
+  color: black !important;
 }
 
 input[type="submit"].alt:hover,
@@ -2689,7 +2689,7 @@ input[type="reset"].alt:hover,
 input[type="button"].alt:hover,
 .button.alt:hover {
   background-color: #f4f4f4;
-  color: #777 !important;
+  color: black !important;
 }
 
 input[type="submit"].alt:active,
@@ -2703,7 +2703,7 @@ input[type="submit"].alt.icon:before,
 input[type="reset"].alt.icon:before,
 input[type="button"].alt.icon:before,
 .button.alt.icon:before {
-  color: #aaa;
+  color: black;
 }
 
 input[type="submit"].primary,
@@ -2736,7 +2736,7 @@ input[type="button"].disabled,
 input[type="button"]:disabled,
 .button.disabled,
 .button:disabled {
-  background-color: #888 !important;
+  background-color: black !important;
   box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
   color: #fff !important;
   cursor: default;
@@ -2823,11 +2823,11 @@ input[type="button"]:disabled,
 }
 
 #header header p {
-  color: #ff9292;
+  color: black;
 }
 
 #header a {
-  color: #ff9292;
+  color: black;
 }
 
 #header a:hover {
@@ -2854,7 +2854,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-  color: #ff9292;
+  color: black;
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2875,7 +2875,7 @@ input[type="button"]:disabled,
 }
 
 #header > footer .icons li a {
-  color: #dd7e7e;
+  color: black;
 }
 
 #header > nav {
@@ -2944,7 +2944,7 @@ input[type="button"]:disabled,
 #footer {
   background: #fafafa;
   border-top: 0;
-  color: #c0c0c0;
+  color: black;
   overflow: hidden;
   padding: 4em 0 2em 0;
 }
@@ -2956,7 +2956,7 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li {
-  border-left: solid 1px #d4d4d4;
+  border-left: solid 1px black;
   display: inline-block;
   font-size: 0.8em;
   margin-left: 1em;
