@@ -3433,3 +3433,10 @@ input[type="button"]:disabled,
     padding: 0;
   }
 }
+.headshot {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 1.5rem auto;
+}
