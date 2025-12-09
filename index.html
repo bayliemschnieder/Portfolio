@@ -60,6 +60,7 @@
       content="https://baylieschnieder.me/social-media-banner.png"
     />
     <meta property="og:url" content="https://baylieschnieder.me" />
+    <link rel="stylesheet" href="cookie-popup.css" />
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -229,18 +230,34 @@
         </section>
 
         <!-- Footer -->
-        <section id="footer">
-          <div class="container">
-            <ul class="copyright">
-              <li>&copy; 2025 Baylie Schnieder. All rights reserved.</li>
-              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-          </div>
-        </section>
+        <footer>
+          <section id="footer">
+            <div class="container">
+              <ul class="copyright">
+                <li>&copy; 2025 Baylie Schnieder. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              </ul>
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="termsandconditions.html">Terms and Conditions</a>
+              <a href="cookie-policy.html">Privacy Policy</a>
+            </div>
+          </section>
+        </footer>
       </div>
       <!-- CLOSES #main -->
     </div>
     <!-- CLOSES #wrapper -->
+    <div id="cookie-popup">
+      <p>
+        By using this site you agree to the storing of cookies on your device to
+        enhance site navigation and to analyze site usage. Learn more about our
+        <a href="cookie-policy.html">cookie policy</a>.
+      </p>
+      <p>
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <script src="cookie-popup.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
